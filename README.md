@@ -59,5 +59,39 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 - **3 Phasen × 20 Meter** = **60 m von 1 × 1,5 mm²**
 - **3 Phasen × 5 Meter** = **15 m von 1 × 2,5 mm²**
 
+# Analoge Wägezellen
 
+## Verkabelung der Wägezellen:
 
+### 1. Wägezellen
+- Abstand: 1 m
+- Kabel: 4x0,75 mm² abgeschirmt
+
+### 2. Analysatoren
+- Signal: 4-20 mA
+- Abstand: 6 m
+- Kabel: 4x0,75 mm² abgeschirmt
+
+### 3. Brücken
+- Keine spezifischen Angaben
+
+---
+
+## Stromverbrauch:
+
+- **20 mA pro PLC-Eingang:** 20 mA × 2 = **40 mA**
+- **Interner Verbrauch pro Gerät:** 8 mA × 2 = **16 mA**
+- **Gesamtverbrauch:** **56 mA**
+
+---
+
+## Verkabelung vom Sensor zu den Anschlussklemmen:
+
+- **8 Wägezellen** = 8 × 1 m = **8 m**
+- **2 Analysatoren** = 2 × 6 m = **12 m**
+- **Gesamtlänge der Kabel:** **20 m (4x0,75 mm²)**
+
+---
+
+### Abbildung:
+(Siehe Bild für eine schematische Darstellung der Verkabelung)
