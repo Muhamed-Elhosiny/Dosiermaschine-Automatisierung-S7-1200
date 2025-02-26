@@ -21,5 +21,43 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 - **Dosiersilo 2 Wägezelle:** 4-20 mA  
 
 ### 🔧 Digitale Aktuatoren:  
-- **Mischer-Schlauchventil:** 24VDC  
+- **Mischer-Schlauchventil:** 24VDC
+
+## Motorenbewertungen, Schutz und Verkabelung
+
+### Aufzug 1, 2
+- **Leistung:** 3 kW
+- **Spannung:** 380 V AC, 3-Phasen
+- **Schütz:** AC-3
+- **Strom:** (I = W / (V × 0.7 × 1.73)) = 6,5 A
+- **Überlastschutz:** Mindestens 6,5 A
+- **Entfernung:** 5 m
+- **Kabel:** 1 × 1,5 mm²
+
+### Mischer
+- **Leistung:** 5,5 kW
+- **Spannung:** 380 V AC, 3-Phasen
+- **Geschwindigkeitsregelung:** Erforderlich (VFD 5,5 kW)
+- **Strom:** (I = W / (V × 0.7 × 1.73)) = 12 A
+- **Überlastschutz:** Nicht erforderlich
+- **Entfernung:** 5 m
+- **Kabel:** 1 × 2,5 mm²
+
+### Spirale 1, 2
+- **Leistung:** 1 kW
+- **Spannung:** 380 V AC, 3-Phasen
+- **Geschwindigkeitsregelung:** Erforderlich (VFD 1 kW)
+- **Strom:** (I = W / (V × 0.7 × 1.73)) = 2,2 A
+- **Überlastschutz:** Nicht erforderlich
+- **Entfernung:** 5 m
+- **Kabel:** 1 × 1,5 mm²
+
+### Gesamtleistungsaufnahme
+- 3 kW × 2 + 5,5 kW + 1,1 kW × 2 = 13,7 kW
+
+### Kabelverlängerungen vom Motor zu den elektrischen Schalttafelklemmen
+- **3 Phasen × 20 Meter** = **60 m von 1 × 1,5 mm²**
+- **3 Phasen × 5 Meter** = **15 m von 1 × 2,5 mm²**
+
+
 
