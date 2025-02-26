@@ -109,5 +109,37 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 ### Hinweis:
 Jeder PLC-Ausgang verbraucht im Durchschnitt **12 mA**, und jede Relais-Spule benötigt **9 mA**.
 
+# SPS-Auswahl
+
+## Digitale Ausgänge:
+1. Mixer  
+2. Spirale 1  
+3. Spirale 2  
+4. Aufzug 1  
+5. Aufzug 2  
+6. Mixer-Tor  
+7. Reserve 1  
+8. Reserve 2  
+---
+## Digitale Eingänge:
+1. Mixer VFD Überlast (OVLD)  
+2. Spirale 1 VFD Überlast (OVLD)  
+3. Spirale 2 VFD Überlast (OVLD)  
+4. Aufzug 1 Überlast (OVLD)  
+5. Aufzug 2 Überlast (OVLD)  
+6. Not-Aus (EMGC Stop)  
+7. Reserve 1  
+8. Reserve 2  
+---
+## Analoge Ausgänge:
+1. VFD1 Frequenz  
+2. VFD2 Frequenz  
+---
+## Analoge Eingänge:
+1. Wägezellen-Analysator 1  
+2. Wägezellen-Analysator 2  
+
+
+
 
 
