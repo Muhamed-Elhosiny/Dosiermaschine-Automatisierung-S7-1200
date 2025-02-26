@@ -197,6 +197,10 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
    - **Typ:** 1-poliger MCB  
    - **Funktion:** Schalten  
 
+## Algorithm
+
+![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
+
 # CFC-Programmierung (Textdarstellung)  
 
 ## Programm: Dosiermaschine_Main  
