@@ -71,27 +71,43 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 - Signal: 4-20 mA
 - Abstand: 6 m
 - Kabel: 4x0,75 mm² abgeschirmt
-
-### 3. Brücken
-- Keine spezifischen Angaben
-
 ---
-
 ## Stromverbrauch:
 
 - **20 mA pro PLC-Eingang:** 20 mA × 2 = **40 mA**
 - **Interner Verbrauch pro Gerät:** 8 mA × 2 = **16 mA**
 - **Gesamtverbrauch:** **56 mA**
-
 ---
-
 ## Verkabelung vom Sensor zu den Anschlussklemmen:
 
 - **8 Wägezellen** = 8 × 1 m = **8 m**
 - **2 Analysatoren** = 2 × 6 m = **12 m**
 - **Gesamtlänge der Kabel:** **20 m (4x0,75 mm²)**
 
----
+# Aktor-Relais und Verkabelung
 
-### Abbildung:
-(Siehe Bild für eine schematische Darstellung der Verkabelung)
+## Komponenten und Verkabelung:
+
+| Aktor        | Relais-Typ      | Kabeltyp       |
+|-------------|---------------|--------------|
+| Mixer       | 24VDC Relais  | 1×0,75 mm²  |
+| Spirale 1   | 24VDC Relais  | 1×0,75 mm²  |
+| Spirale 2   | 24VDC Relais  | 1×0,75 mm²  |
+| Aufzug 1    | 24VDC Relais  | 1×0,75 mm²  |
+| Aufzug 2    | 24VDC Relais  | 1×0,75 mm²  |
+| Mixer-Tor   | 24VDC Relais  | 1×0,75 mm²  |
+---
+## Gesamter Stromverbrauch:
+
+- **Durchschnittlicher Verbrauch pro PLC-Ausgang:** 12 mA
+- **Verbrauch pro Relais-Spule:** 9 mA
+- **Berechnung:**
+  - **PLC-Ausgänge:** 12 mA × 6 = **72 mA**
+  - **Relais-Spulen:** 9 mA × 6 = **54 mA**
+  - **Gesamtstromverbrauch:** **135 mA**
+---
+### Hinweis:
+Jeder PLC-Ausgang verbraucht im Durchschnitt **12 mA**, und jede Relais-Spule benötigt **9 mA**.
+
+
+
