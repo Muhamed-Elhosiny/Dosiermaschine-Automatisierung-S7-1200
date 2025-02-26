@@ -155,6 +155,42 @@ Jeder PLC-Ausgang verbraucht im Durchschnitt **12 mA**, und jede Relais-Spule be
 ## Stromversorgung:
 Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr als ausreichend.
 
+# Hauptleistungsschalter
+
+## Gesamtstromberechnung:
+**Gesamtstrom = 13,7 kW / (380 × 0,7 × 1,73) = 30A**
+
+**Hinweis:** Ein Hauptleistungsschalter wird hauptsächlich verwendet, um das **Eingangs-Stromkabel** zu schützen.
+
+## Schritte zur Auswahl des Hauptleistungsschalters:
+
+1. **Kabellänge berechnen**  
+   - Notwendige Kabellänge zwischen der Hauptstromquelle (Transformator, Stromverteilung) und dem Hauptleistungsschalter.  
+   - In unserem Fall nehmen wir **10 m** an.
+
+2. **Gesamtstromverbrauch des Schaltkastens berechnen**  
+   - Fallannahme: **30A × 10 (für Einschaltströme) = 300A**
+
+3. **Geeignete Kabellösung testen**  
+   - 2,5 mm² Kabel mit einem Widerstand von **0,00831 Ω pro Meter**.  
+   - Ist der Spannungsabfall **unter 3%**?
+
+4. **Spannungsabfall berechnen**  
+   **Formel:**  
+   \[
+   \text{Spannungsabfall (%) } = \frac{1,73 × \text{Strom} × \text{Kabelwiderstand pro Meter} × \text{Kabellänge} × 100}{\text{Eingangsspannung}}
+   \]
+   **Berechnung:**  
+   \[
+   \frac{1,73 × 30 × 0,00831 × 10 × 100}{380} = 1,11\%  
+   \]
+   - **Weniger als 3%, akzeptabel!**
+
+5. **Maximaler Strom für 2,5 mm² Kabel prüfen**  
+   - Laut Tabelle: **32A**  
+   - **Daher sollte der Hauptschutzschalter mit 32A, Typ C, ausgelegt sein.**
+
+
 
 
 
