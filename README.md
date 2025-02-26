@@ -6,7 +6,8 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 
 ![image](https://github.com/user-attachments/assets/0304a67b-8fdc-4382-94d6-65f1d51ec326)
 
-## 📌 Dosiermaschine  
+## 📌 Dosiermaschinen-Komponenten
+
 
 ### ⚙️ Motoren:  
 1. **Zuführungsaufzug 1:** Direktantrieb **3 kW**  
