@@ -175,15 +175,10 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
    - 2,5 mm² Kabel mit einem Widerstand von **0,00831 Ω pro Meter**.  
    - Ist der Spannungsabfall **unter 3%**?
 
-4. **Spannungsabfall berechnen**  
-   **Formel:**  
-   \[
-   \text{Spannungsabfall (%) } = \frac{1,73 × \text{Strom} × \text{Kabelwiderstand pro Meter} × \text{Kabellänge} × 100}{\text{Eingangsspannung}}
-   \]
+4. **Spannungsabfall berechnen:**  
+   **Spannungsabfall (%) = (1,73 × Strom × Kabelimpedanz pro Meter × Kabellänge × 100) / Spannungsquelle**  
    **Berechnung:**  
-   \[
-   \frac{1,73 × 30 × 0,00831 × 10 × 100}{380} = 1,11\%  
-   \]
+   **(1,73 × 30 × 0,00831 × 10 × 100) / 380 = 1,11%**  
    - **Weniger als 3%, akzeptabel!**
 
 5. **Maximaler Strom für 2,5 mm² Kabel prüfen**  
