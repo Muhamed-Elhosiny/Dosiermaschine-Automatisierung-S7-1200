@@ -185,6 +185,59 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
    - Laut Tabelle: **32A**  
    - **Daher sollte der Hauptschutzschalter mit 32A, Typ C, ausgelegt sein.**
 
+# Leitungsschutzschalter (MCBs)
+
+1. **24VDC Stromversorgung:**  
+   - **MCB:** 1A  
+   - **Typ:** 1-poliger MCB  
+   - **Funktion:** Schalten  
+
+2. **PLC Steuerstromkreis:**  
+   - **MCB:** 1A  
+   - **Typ:** 1-poliger MCB  
+   - **Funktion:** Schalten  
+
+# CFC-Programmierung (Textdarstellung)  
+
+## Programm: Dosiermaschine_Main  
+
+### Variablen:  
+
+#### **Ausgänge (Outputs)**  
+- `Elevator_Coil_1` : BOOL  
+- `Elevator_Coil_2` : BOOL  
+- `Spiral_convoyer_1` : BOOL  
+- `Spiral_convoyer_2` : BOOL  
+- `Mixer_Coil` : BOOL  
+- `Mixer_gate_coil` : BOOL  
+
+#### **Eingänge (Inputs)**  
+- `Elevator_OVLD_1` : BOOL  
+- `Elevator_OVLD_2` : BOOL  
+- `Spiral_convoyer_1_OVLD` : BOOL  
+- `Spiral_convoyer_2_OVLD` : BOOL  
+- `Mixer_OVLD` : BOOL  
+- `EMGC` : BOOL  
+- `Start_Dosing` : BOOL  
+- `Stop_Dosing` : BOOL  
+- `Fill_Silo_1` : BOOL  
+- `Fill_Silo_2` : BOOL  
+
+#### **Analoge Ausgänge (Analog Output)**  
+- `Spiral_convoyer_1_Freq` : INT  
+- `Spiral_convoyer_2_Freq` : INT  
+- `Mixer_Freq` : INT  
+
+#### **Analoge Eingänge für das Gewicht (Wägezellen)**  
+- `Silo_1_weight` : INT  
+- `Silo_2_weight` : INT  
+- `Silo_1_required` : INT  
+- `Silo_2_required` : INT  
+
+#### **Dosierblock**  
+- `Silo_1_Dosing` : `Dosierung_Block`  
+
+**Ende der Variablendeklaration.**  
 
 
 
