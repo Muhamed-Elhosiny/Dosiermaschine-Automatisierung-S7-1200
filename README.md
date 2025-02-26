@@ -137,7 +137,24 @@ Jeder PLC-Ausgang verbraucht im Durchschnitt **12 mA**, und jede Relais-Spule be
 ---
 ## Analoge Eingänge:
 1. Wägezellen-Analysator 1  
-2. Wägezellen-Analysator 2  
+2. Wägezellen-Analysator 2
+
+ # DC-Leistungsaufnahme und Stromversorgung
+
+## Stromverbrauch:
+- **Digitale Ausgänge:** 12 mA × 8 = **96 mA**
+- **Digitale Eingänge:** 12 mA × 8 = **96 mA**
+- **Analoge Eingänge:** 20 mA × 2 = **40 mA**
+- **Analoge Ausgänge:** 12 mA × 2 = **72 mA**
+- **Relais:** 9 mA × 8 = **72 mA**
+- **PLC intern:** **20 mA**
+- **VFD intern:** 5 mA × 3 = **15 mA**
+- **Analysator:** 8 mA × 2 = **16 mA**
+- **Gesamtverbrauch:** **427 mA**
+
+## Stromversorgung:
+Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr als ausreichend.
+
 
 
 
