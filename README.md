@@ -232,6 +232,26 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/e4961629-20ae-41bb-95d0-320dd29455a3)
 
+
+# FSM-Controller-Funktionsblock
+
+![image](https://github.com/user-attachments/assets/1754eea5-10a7-45dd-98cb-eaa4ba1607d3)
+
+![image](https://github.com/user-attachments/assets/696045f0-68af-40ee-9357-76b53d16dcc6)
+
+![image](https://github.com/user-attachments/assets/167ada2d-fb1c-4720-9fd0-8c347d000e1b)
+
+![image](https://github.com/user-attachments/assets/9440e067-7a1e-494f-bfa3-317cfa3eeecd)
+
+
+
+
+
+
+
+
+
+
 # Dosierblock_FB [FB1]
 
 ![image](https://github.com/user-attachments/assets/99bfe8a6-5fb8-4223-83d4-cd29aad5cb58)
