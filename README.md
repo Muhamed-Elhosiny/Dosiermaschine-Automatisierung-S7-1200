@@ -198,11 +198,19 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
   
 # elektrische Schaltplän
 
+## Hauptschalter
+
 ![image](https://github.com/user-attachments/assets/25556d0c-02eb-452d-82b9-f1bf18c71c6f)
+
+## Direkt angetriebene Motoren
 
 ![image](https://github.com/user-attachments/assets/6130a37e-6679-47f0-899b-7ae55793e761)
 
+## Frquenzumrichter
+
 ![image](https://github.com/user-attachments/assets/2bf86108-0000-4321-b8bf-f8487234b1ba)
+
+## SPS-Steuerung
 
 ![image](https://github.com/user-attachments/assets/497586a0-f292-4b0e-8e79-efc9f8363824)
 
@@ -211,13 +219,7 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/c1452f00-cb6a-415c-82f0-6073cc3f8050)
 
 
-
-
-
-
-
-
-## Algorithm
+## Algorithm (Ablauf des Programms )
 
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
