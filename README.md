@@ -202,12 +202,12 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
 ## 📂 Dosierungsmaschine_TIA_Portal
- ┣ 📂 PLC_Tags
- ┣ 📂 Main_Program
- ┣ 📂 Function_Blocks
- ┃ ┣ 📜 FSM_Controller.fb  # (Finite State Machine Function Block)
- ┃ ┣ 📜 DosingBlock.fb     # (Dosing Function Block)
- ┃ ┗ 📜 Timer.fb           # (Timer Function Block)
+ ┣ 📂 PLC_Tags                 # (PLC-Variablentabelle)
+ ┣ 📂 Hauptprogramm            # (Main_Program)
+ ┣ 📂 Funktionsbausteine       # (Function_Blocks)
+ ┃ ┣ 📜 FSM_Controller.fb      # (Finite-State-Machine-Funktionsbaustein)
+ ┃ ┣ 📜 DosingBlock.fb         # (Dosierblock-Funktionsbaustein)
+ ┃ ┗ 📜 Timer.fb               # (Timer-Funktionsbaustein)
 
 
 # 📌 TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
