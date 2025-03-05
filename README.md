@@ -194,7 +194,28 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 2. **PLC Steuerstromkreis:**  
    - **MCB:** 1A  
    - **Typ:** 1-poliger MCB  
-   - **Funktion:** Schalten  
+   - **Funktion:** Schalten
+  
+# elektrische Schaltplän
+
+![image](https://github.com/user-attachments/assets/25556d0c-02eb-452d-82b9-f1bf18c71c6f)
+
+![image](https://github.com/user-attachments/assets/6130a37e-6679-47f0-899b-7ae55793e761)
+
+![image](https://github.com/user-attachments/assets/2bf86108-0000-4321-b8bf-f8487234b1ba)
+
+![image](https://github.com/user-attachments/assets/497586a0-f292-4b0e-8e79-efc9f8363824)
+
+![image](https://github.com/user-attachments/assets/f42d145b-7dba-4778-aa08-3b1866e74860)
+
+![image](https://github.com/user-attachments/assets/c1452f00-cb6a-415c-82f0-6073cc3f8050)
+
+
+
+
+
+
+
 
 ## Algorithm
 
