@@ -201,6 +201,15 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
+## 📂 Dosierungsmaschine_TIA_Portal
+ ┣ 📂 PLC_Tags
+ ┣ 📂 Main_Program
+ ┣ 📂 Function_Blocks
+ ┃ ┣ 📜 FSM_Controller.fb  # (Finite State Machine Function Block)
+ ┃ ┣ 📜 DosingBlock.fb     # (Dosing Function Block)
+ ┃ ┗ 📜 Timer.fb           # (Timer Function Block)
+
+
 # 📌 TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
 
 ![image](https://github.com/user-attachments/assets/985a74a1-2446-4f8c-b2c9-8d9fe72f8b43)
@@ -208,7 +217,6 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/e56aed77-5b5d-46e2-81a9-8a813ff4907f)
 
 ## Programm: Ladder Diagram for Dosierungsmaschine_Main  
-
 
 ## Netzwerk 1: FSM-Controller-Funktionsblock
 
@@ -243,15 +251,6 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/9440e067-7a1e-494f-bfa3-317cfa3eeecd)
 
-
-
-
-
-
-
-
-
-
 # Dosierblock_FB [FB1]
 
 ![image](https://github.com/user-attachments/assets/99bfe8a6-5fb8-4223-83d4-cd29aad5cb58)
@@ -259,6 +258,11 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/3647a605-c640-4f9a-98d4-90c1471cc792)
 
 ![image](https://github.com/user-attachments/assets/e535c5aa-0d86-4982-8c05-02e96482ceda)
+
+# Zeitsteuerung [FB4]
+
+![image](https://github.com/user-attachments/assets/43b8c39d-d220-426a-8ffe-047a455ecb4e)
+
 
 
 
