@@ -207,7 +207,33 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/e56aed77-5b5d-46e2-81a9-8a813ff4907f)
 
-## Programm: Dosiermaschine_Main  
+## Programm: Ladder Diagram for Dosierungsmaschine_Main  
+
+
+## Network 1: FSM Controller Function Block
+
+![image](https://github.com/user-attachments/assets/034a56bd-bdfc-4e38-831b-4049bcd5c51f)
+
+## Network 2: Dosing Block Function Call
+
+![image](https://github.com/user-attachments/assets/1482e683-a8a0-49d7-81b3-3b73542faf95)
+
+## Network 3: Calling Silo 1,2
+
+![image](https://github.com/user-attachments/assets/de1ce060-a134-4c8e-bc67-645c020e2119)
+
+![image](https://github.com/user-attachments/assets/ae3fbb08-ff66-4fe7-bea5-beac3e505417)
+
+## Network 3: Timer Block Activation
+
+![image](https://github.com/user-attachments/assets/0965489c-093f-4534-b569-2da973f4c467)
+
+
+
+
+
+
+ 
 
 
 
