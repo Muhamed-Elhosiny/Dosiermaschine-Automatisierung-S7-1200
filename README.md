@@ -241,7 +241,7 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 #### **Dosierblock**  
 - `Silo_1_Dosing` : `Dosierung_Block`  
 
-**Ende der Variablendeklaration.**  
+![image](https://github.com/user-attachments/assets/985a74a1-2446-4f8c-b2c9-8d9fe72f8b43)
 
 
 
