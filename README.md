@@ -201,59 +201,15 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
-# CFC-Programmierung (Textdarstellung)  
-
-## Programm: Dosiermaschine_Main  
-
-### Variablen:  
-
-#### **Ausgänge (Outputs)**  
-- `Elevator_Coil_1` : BOOL  
-- `Elevator_Coil_2` : BOOL  
-- `Spiral_convoyer_1` : BOOL  
-- `Spiral_convoyer_2` : BOOL  
-- `Mixer_Coil` : BOOL  
-- `Mixer_gate_coil` : BOOL  
-
-#### **Eingänge (Inputs)**  
-- `Elevator_OVLD_1` : BOOL  
-- `Elevator_OVLD_2` : BOOL  
-- `Spiral_convoyer_1_OVLD` : BOOL  
-- `Spiral_convoyer_2_OVLD` : BOOL  
-- `Mixer_OVLD` : BOOL  
-- `EMGC` : BOOL  
-- `Start_Dosing` : BOOL  
-- `Stop_Dosing` : BOOL  
-- `Fill_Silo_1` : BOOL  
-- `Fill_Silo_2` : BOOL  
-
-#### **Analoge Ausgänge (Analog Output)**  
-- `Spiral_convoyer_1_Freq` : INT  
-- `Spiral_convoyer_2_Freq` : INT  
-- `Mixer_Freq` : INT  
-
-#### **Analoge Eingänge für das Gewicht (Wägezellen)**  
-- `Silo_1_weight` : INT  
-- `Silo_2_weight` : INT  
-- `Silo_1_required` : INT  
-- `Silo_2_required` : INT  
-
-#### **Dosierblock**  
-- `Silo_1_Dosing` : `Dosierung_Block`  
+# 📌 TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
 
 ![image](https://github.com/user-attachments/assets/985a74a1-2446-4f8c-b2c9-8d9fe72f8b43)
 
 ![image](https://github.com/user-attachments/assets/e56aed77-5b5d-46e2-81a9-8a813ff4907f)
 
-# 📌 TIA Portal PLC Tags Table for Dosierungsmaschine
+## Programm: Dosiermaschine_Main  
 
-| Name               | Path               | Data Type | Logical Address | Comment                          | HMI Visible | HMI Accessible | HMI Writeable |
-|-------------------|-------------------|-----------|----------------|--------------------------------|-------------|---------------|--------------|
-| Aufzug1_Schütz   | Default tag table  | Bool      | %Q0.0          | Schütz für Aufzug 1           | ✅          | ✅            | ✅           |
-| Aufzug2_Schütz   | Default tag table  | Bool      | %Q0.1          | Schütz für Aufzug 2           | ✅          | ✅            | ✅           |
-| Spirale1_Schütz  | Default tag table  | Bool      | %Q0.2          | Schütz für Spiralförderer 1   | ✅          | ✅            | ✅           |
-| Spirale2_Schütz  | Default tag table  | Bool      | %Q0.3          | Schütz für Spiralförderer 2   | ✅          | ✅            | ✅           |
-| Mischer_Schütz   | Default tag table  | Bool      | %Q0.4          | Schütz für Mischer            | ✅          | ✅            | ✅           |
+
 
 
 
