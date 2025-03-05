@@ -8,7 +8,6 @@ Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorin
 
 ## 📌 Dosiermaschinen-Komponenten
 
-
 ### ⚙️ Motoren:  
 1. **Zuführungsaufzug 1:** Direktantrieb **3 kW**  
 2. **Zuführungsaufzug 2:** Direktantrieb **3 kW**  
@@ -202,12 +201,16 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
 ## 📂 Dosierungsmaschine_TIA_Portal
- ### 1. PLC_Tags (PLC-Variablentabelle)
- ### 2. Hauptprogramm (Main_Program)
- ### 3. Funktionsbausteine (Function_Blocks)
-  ### 3.1 FSM_Controller (Finite-State-Machine-Funktionsbaustein)
-  ### 3.2 DosingBlock (Dosierblock-Funktionsbaustein)
-  ### 3.3 Timer (Timer-Funktionsbaustein)
+
+### 1️⃣ PLC_Tags (PLC-Variablentabelle)
+
+### 2️⃣ Hauptprogramm (Main_Program)
+
+### 3️⃣ Funktionsbausteine (Function_Blocks)
+   #### 3.1️⃣ FSM_Controller (Finite-State-Machine-Funktionsbaustein)
+   #### 3.2️⃣ DosingBlock (Dosierblock-Funktionsbaustein)
+   #### 3.3️⃣ Timer (Timer-Funktionsbaustein)
+
 
 
 # 📌 TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
