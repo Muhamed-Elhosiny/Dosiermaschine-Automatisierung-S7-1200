@@ -243,6 +243,9 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/985a74a1-2446-4f8c-b2c9-8d9fe72f8b43)
 
+![image](https://github.com/user-attachments/assets/e56aed77-5b5d-46e2-81a9-8a813ff4907f)
+
+
 
 
 
