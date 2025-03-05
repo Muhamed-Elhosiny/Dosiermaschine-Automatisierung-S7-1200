@@ -245,6 +245,17 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/e56aed77-5b5d-46e2-81a9-8a813ff4907f)
 
+# 📌 TIA Portal PLC Tags Table for Dosierungsmaschine
+
+| Name               | Path               | Data Type | Logical Address | Comment                          | HMI Visible | HMI Accessible | HMI Writeable |
+|-------------------|-------------------|-----------|----------------|--------------------------------|-------------|---------------|--------------|
+| Aufzug1_Schütz   | Default tag table  | Bool      | %Q0.0          | Schütz für Aufzug 1           | ✅          | ✅            | ✅           |
+| Aufzug2_Schütz   | Default tag table  | Bool      | %Q0.1          | Schütz für Aufzug 2           | ✅          | ✅            | ✅           |
+| Spirale1_Schütz  | Default tag table  | Bool      | %Q0.2          | Schütz für Spiralförderer 1   | ✅          | ✅            | ✅           |
+| Spirale2_Schütz  | Default tag table  | Bool      | %Q0.3          | Schütz für Spiralförderer 2   | ✅          | ✅            | ✅           |
+| Mischer_Schütz   | Default tag table  | Bool      | %Q0.4          | Schütz für Mischer            | ✅          | ✅            | ✅           |
+
+
 
 
 
