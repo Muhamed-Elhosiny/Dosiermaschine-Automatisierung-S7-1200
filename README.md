@@ -210,23 +210,37 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ## Programm: Ladder Diagram for Dosierungsmaschine_Main  
 
 
-## Network 1: FSM Controller Function Block
+## Netzwerk 1: FSM-Controller-Funktionsblock
 
 ![image](https://github.com/user-attachments/assets/034a56bd-bdfc-4e38-831b-4049bcd5c51f)
 
-## Network 2: Dosing Block Function Call
+## Netzwerk 2: Aufruf des Dosierblock-Funktionsblocks
 
 ![image](https://github.com/user-attachments/assets/1482e683-a8a0-49d7-81b3-3b73542faf95)
 
-## Network 3: Calling Silo 1,2
+## Netzwerk 3: Aufruf von Silo 1 und 2
 
 ![image](https://github.com/user-attachments/assets/de1ce060-a134-4c8e-bc67-645c020e2119)
 
 ![image](https://github.com/user-attachments/assets/ae3fbb08-ff66-4fe7-bea5-beac3e505417)
 
-## Network 3: Timer Block Activation
+## Netzwerk 4: Aktivierung des Timer-Blocks
 
 ![image](https://github.com/user-attachments/assets/0965489c-093f-4534-b569-2da973f4c467)
+
+## Network 5: Not-Aus Schalter
+
+![image](https://github.com/user-attachments/assets/e4961629-20ae-41bb-95d0-320dd29455a3)
+
+# Dosierblock_FB [FB1]
+
+![image](https://github.com/user-attachments/assets/99bfe8a6-5fb8-4223-83d4-cd29aad5cb58)
+
+![image](https://github.com/user-attachments/assets/3647a605-c640-4f9a-98d4-90c1471cc792)
+
+![image](https://github.com/user-attachments/assets/e535c5aa-0d86-4982-8c05-02e96482ceda)
+
+
 
 
 
