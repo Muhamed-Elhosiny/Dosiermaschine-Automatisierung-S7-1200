@@ -198,7 +198,7 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
   
 # elektrische Schaltplän
 
-## Hauptschalter
+## Hauptschalter (MCB)
 
 ![image](https://github.com/user-attachments/assets/25556d0c-02eb-452d-82b9-f1bf18c71c6f)
 
