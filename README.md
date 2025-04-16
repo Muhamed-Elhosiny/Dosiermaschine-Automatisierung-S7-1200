@@ -1,25 +1,25 @@
 # Dosiermaschine-Automatisierung-S7-1200
 
- ## 📌 Einführung  
+ ## Einführung  
 **Dieses Projekt ist eine Automatisierungslösung für eine Dosiermaschine unter Verwendung einer Siemens S7-1200 SPS.**  
 Es umfasst die **SPS-Programmierung**, die **Motorsteuerung** und die **Sensorintegration**, um den Dosier- und Mischprozess zu automatisieren.  
 
 ![image](https://github.com/user-attachments/assets/0304a67b-8fdc-4382-94d6-65f1d51ec326)
 
-## 📌 Dosiermaschinen-Komponenten
+## Dosiermaschinen-Komponenten
 
-### ⚙️ Motoren:  
+### Motoren:  
 1. **Zuführungsaufzug 1:** Direktantrieb **3 kW**  
 2. **Zuführungsaufzug 2:** Direktantrieb **3 kW**  
 3. **Spiralförderer 1:** Frequenzumrichter (VFD) **1 kW**  
 4. **Spiralförderer 2:** Frequenzumrichter (VFD) **1 kW**  
 5. **Mischer:** Frequenzumrichter (VFD) **5,5 kW**  
 
-### 🎯 Analoge Sensoren:  
+### Analoge Sensoren:  
 - **Dosiersilo 1 Wägezelle:** 4-20 mA  
 - **Dosiersilo 2 Wägezelle:** 4-20 mA  
 
-### 🔧 Digitale Aktuatoren:  
+### Digitale Aktuatoren:  
 - **Mischer-Schlauchventil:** 24VDC
 
 ## Motorenbewertungen, Schutz und Verkabelung
@@ -223,20 +223,20 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 
 ![image](https://github.com/user-attachments/assets/0d13ced7-8079-4726-b3e4-c6acd0789838)
 
- ## 📂 Dosierungsmaschine_TIA_Portal
+ ## Dosierungsmaschine_TIA_Portal
 
-### 1️⃣ PLC_Tags (PLC-Variablentabelle)
+### 1️_PLC_Tags (PLC-Variablentabelle)
 
-### 2️⃣ Hauptprogramm (Main_Program_Ladder)
+### 2️_Hauptprogramm (Main_Program_Ladder)
 
-### 3️⃣ Funktionsbausteine (Function_Blocks)
-   #### 3.1️⃣ FSM_Controller (Finite-State-Machine-Funktionsbaustein_SCL)
-   #### 3.2️⃣ DosingBlock (Dosierblock-Funktionsbaustein_SCL)
-   #### 3.3️⃣ Timer (Timer-Funktionsbaustein_Ladder)
+### 3️_Funktionsbausteine (Function_Blocks)
+   #### 3.1️ FSM_Controller (Finite-State-Machine-Funktionsbaustein_SCL)
+   #### 3.2️ DosingBlock (Dosierblock-Funktionsbaustein_SCL)
+   #### 3.3️ Timer (Timer-Funktionsbaustein_Ladder)
 
 
 
-# 📌 TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
+# TIA-Portal PLC-Tag-Tabelle für die Dosierungsmaschine
 
 ![image](https://github.com/user-attachments/assets/985a74a1-2446-4f8c-b2c9-8d9fe72f8b43)
 
