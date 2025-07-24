@@ -278,7 +278,7 @@ Eine **24VDC 1A Industrie-Stromversorgung** mit **Kurzschlussschutz** ist mehr a
 ![image](https://github.com/user-attachments/assets/9440e067-7a1e-494f-bfa3-317cfa3eeecd)
 
 # Dosierblock_FB [FB1]
-
+ 
 ![image](https://github.com/user-attachments/assets/99bfe8a6-5fb8-4223-83d4-cd29aad5cb58)
 
 ![image](https://github.com/user-attachments/assets/3647a605-c640-4f9a-98d4-90c1471cc792)
